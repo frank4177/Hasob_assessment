@@ -60,7 +60,7 @@
 }
 
 .navLoginBtn{
-    padding: 10px 25px;
+    padding: 9px 25px;
     border: 2px solid #89B67C;
     border-radius: 5px;
     cursor: pointer;
@@ -68,7 +68,7 @@
 
 
 .navSignBtn{
-    padding: 10px 25px;
+    padding: 9px 25px;
     color: white;
     background-color: black;
     border-radius: 5px;
@@ -77,7 +77,7 @@
 }
 
 .cartIcon{
-    font-size: 45px;
+    font-size: 40px;
     align-self: flex-end;
 }
 
@@ -95,8 +95,8 @@
 
 
 .cartQty{
-    width: 20px;
-    height: 20px;
+    width: 18px;
+    height: 18px;
     background-color: tomato;
     display: flex;
     align-items: center;
