@@ -34,7 +34,7 @@ export const Slide2 = () => {
   return (
     <div className="hero">
       <div className="heroTextWrap">
-        <div className="heroBigText">Subscribe to FGN Saving Bond</div>
+        <div className="heroBigText">Subscribe to FGN <br/> Saving Bond</div>
         <div className="heroSmallText">Loan and get paid with interest</div>
 
         <div className="heroBtnWrap">
