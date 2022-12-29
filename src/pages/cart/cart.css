@@ -106,6 +106,10 @@
         gap: 1px;
     }
 
+    .greytitles{
+        align-self: center;
+    }
+
    .cart-checkoutBtn{
     align-self: center;
    }
