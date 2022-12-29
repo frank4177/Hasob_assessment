@@ -169,6 +169,32 @@
 }
 
 
+@media (max-width: 400px){
+    .seeVideo{
+        font-size: 4.1vw;
+        white-space: nowrap;
+    }
+
+    .heroBtnWrap{
+        min-width: unset;
+    }
+
+    .heroBigText{
+        font-size: 10vw;
+        color: #454745;
+    }
+
+    .heroSmallText{
+        font-size: 7vw;
+    }
+
+    .getStartedBtn{
+        padding: 13px 5px;
+    }
+}
+
+
+
 @media (max-width: 311px){
     .seeVideo{
         font-size: 4.1vw;
