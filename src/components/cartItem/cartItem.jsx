@@ -57,7 +57,7 @@ const CartItem = ({ item }) => {
                 />
               </button>
               <div style={{ color: "#7F817F", fontSize: "16px" }}>
-                {item.quantity}
+                {item.quantity < 10 ? "0" + item.quantity : item.quantity}
               </div>
               <button>
                 <AiOutlinePlusCircle
