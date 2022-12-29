@@ -55,9 +55,8 @@ const cartSlice = createSlice({
         increaseCart: (state, action) => {
             const increaseItem =  state.products.find((item) => item.id === action.payload.id);
 
-            console.log(increaseCart)
-
             if(increaseItem.quantity >= 1){
+              
                 increaseItem.quantity += 1
 
                 state.total = (
@@ -71,7 +70,6 @@ const cartSlice = createSlice({
 
            const increaseItem =  state.products.find((item) => item.id === action.payload.id);
 
-            console.log(increaseCart)
             
             if(increaseItem.quantity > 1){
                 increaseItem.quantity -= 1

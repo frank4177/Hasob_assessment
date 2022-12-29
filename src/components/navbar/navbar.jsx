@@ -19,7 +19,7 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   const [innerWidth, setInnerWidth] = useState(window.innerWidth);
 
-  // console.log(innerWidth)
+
   // Get Screen Size
   useEffect(() => {
     const changeWidth = () => {

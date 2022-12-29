@@ -14,7 +14,6 @@ const CartItem = ({ item }) => {
   const total = useSelector((state) => state?.cart?.total);
 
   const removeItem = (item) => {
-    console.log(item);
     dispatch(removeProduct(item));
   };
 

@@ -23,6 +23,12 @@
 }
 
 
+.showcase .slick-dots li button:before {
+    display: none !important;
+  
+  }
+
+
 
 
 /* ************************************MEDIA QUERIES****************************/
@@ -39,4 +45,9 @@
     .bondOffer-container  .slick-prev{
             display: none !important;
         }
+
+        .showcase .slick-dots li button:before {
+            display: unset !important;
+          
+          }
     }

@@ -10,6 +10,7 @@ const Cart = () => {
   const cartItems = useSelector((state) => state?.cart?.products);
   const total = useSelector((state) => state?.cart?.total);
 
+
   return (
     <div className="cart">
       <Navbar />

@@ -47,9 +47,15 @@
     bottom: 30px;
 }
 
- .slick-dots li button:before {
+.hero-container .slick-dots li button:before {
     font-size: 18px;
 }
+
+
+.hero-container  .slick-prev{
+    display: none !important;
+}
+
 
 
 
