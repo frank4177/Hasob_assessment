@@ -32,7 +32,7 @@ const Cart = () => {
                   </div>
 
                   <div className="totalWrap">
-                    <div className="greytitles">Total Buy</div>
+                    <div className="greytitles TB">Total Buy</div>
                     <div className="total">{formatCurrency(total + 2.09)}</div>
                   </div>
                 </div>

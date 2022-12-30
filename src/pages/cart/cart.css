@@ -65,6 +65,9 @@
 .greytitles{
     color: #7F817F;
     font-weight: 500;
+}
+
+.TB{
     align-self: flex-end;
 }
 
